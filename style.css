@@ -1,0 +1,129 @@
+body {
+    background-image: url("abc.jpg");
+}
+
+.header {
+    background-color: rgba(211, 211, 211, 0.7); /* Light grey color with 70% opacity */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.header h1 {
+    color: black; /* Text color */
+}
+
+/* Logo styles */
+.logo {
+    position: absolute; /* Set position to absolute */
+    top: 10px; /* Adjust top position as needed */
+    left: 20px; /* Adjust left position as needed */
+}
+
+.logo img {
+    width: 65px; /* Set the width of the logo */
+    height: auto; /* Allow the height to adjust proportionally */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 130%;
+    margin-left: 30px;
+}
+
+nav ul :hover{
+    color: #ff6347;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.order-btn {
+    background-color: #ff6347;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-right: 70px; /* Add margin to the left */
+}
+
+.order-btn:hover{
+    color: black;
+}
+
+.container {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 65%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(65, 55, 55, 0.7); /* Light white color with 80% opacity */
+    padding: 20px;
+    text-align: center;
+}
+
+.container h1 {
+    color: white; /* Set text color to white */
+    font-family: Arial, sans-serif; /* Specify font family */
+    font-size: 60px; /* Set font size */
+    margin-top: 0; /* Remove default margin from the top */
+}
+
+.container h4 {
+    color: white; /* Set text color to white */
+    font-family: Arial, sans-serif; /* Specify font family */
+    font-size: 25px; /* Set font size */
+    margin-top: 0; /* Remove default margin from the top */
+}
+
+.order-btn2 {
+    background-color: transparent; /* Transparent background */
+    border: 2px solid white; /* Add border with white color */
+    border-radius: 50% / 30%; /* Adjust values to get the desired egg shape */
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 25px;
+    transition: background-color 0.3s, border-color 0.3s; /* Add transition effect */
+}
+
+.order-btn2:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Change background color on hover */
+    border-color: rgba(255, 255, 255, 0.7); /* Change border color on hover */
+}
+
+.container2 {
+    margin-top: 500px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 65%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(65, 55, 55, 0.7); /* Light white color with 80% opacity */
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
